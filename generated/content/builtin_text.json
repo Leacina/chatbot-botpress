@@ -1,0 +1,259 @@
+[
+  {
+    "id": "builtin_text-pSsHWg",
+    "formData": {
+      "text": "👋, {{state.$r}}!",
+      "variations": [
+        "Olá, {{state.$r}}!",
+        "Bem vindo ao ChatBot do Centac, {{state.$r}}!"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T00:57:36.026Z"
+  },
+  {
+    "id": "builtin_text-AY5SSW",
+    "formData": {
+      "text": "Esta é a primeira vez que nos falamos!! 🤖",
+      "variations": [
+        "Que bom te ver aqui!"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T00:59:51.118Z"
+  },
+  {
+    "id": "builtin_text-bFsOmf",
+    "formData": {
+      "text": "Que legal, já nos falamos {{state.$r}} vezes!",
+      "variations": [
+        "Que bom, já nos falamos {{state.$r}} vezes!",
+        "Que legal, já nos falamos diversas vezes!"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:00:37.593Z"
+  },
+  {
+    "id": "builtin_text-TtzrCV",
+    "formData": {
+      "text": "Ok, esqueci o seu nome.",
+      "variations": [
+        "Ok, não sei mais o seu nome.",
+        "Seu pedido é uma ordem, limpando o seu nome da memória."
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:06:41.963Z"
+  },
+  {
+    "id": "builtin_text-z0J9qh",
+    "formData": {
+      "text": "Olá, por gentileza, qual o seu nome?",
+      "variations": [
+        "Olá, qual o seu nome?",
+        "Olá, com que nome eu poderia te chamar?"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:08:41.241Z"
+  },
+  {
+    "id": "builtin_text-X069Le",
+    "formData": {
+      "text": "Try saying something like \"forget my name\"!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:16:53.227Z"
+  },
+  {
+    "id": "builtin_text-kKQ8C3",
+    "formData": {
+      "text": "(To see how this works, double-click anywhere on the flow and go to the \"Transitions\" panel)",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:17:55.317Z"
+  },
+  {
+    "id": "builtin_text-nQv5nS",
+    "formData": {
+      "text": "Em que posso te ajudar?",
+      "variations": [
+        "Como podemos te ajudar?",
+        "O que deseja saber?"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-12T00:09:29.555Z"
+  },
+  {
+    "id": "builtin_text-5k2YT1",
+    "formData": {
+      "text": "A matricula é realizada de forma presencial, o candidato formaliza a sua matricula realizada pelo portal Unesc, através dos documentos listados abaixo.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-12T00:21:57.758Z"
+  },
+  {
+    "id": "builtin_text-uojjyW",
+    "formData": {
+      "text": "Recebe o contrato da matricula, deve assinar e enviar para Unesc e entregar o original no início das aulas.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-12T00:55:23.722Z"
+  },
+  {
+    "id": "builtin_text-nmjsWW",
+    "formData": {
+      "text": "O boleto da primeira mensalidade é enviado ao novo aluno com vencimento para 2 dias após a efetivação da matricula.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-12T00:55:43.209Z"
+  },
+  {
+    "id": "builtin_text-PDwYeO",
+    "formData": {
+      "text": "Caso necessite de um prazo maior, deve informar pelo requerimento a melhor data para o pagamento.\n\nDocumentos necessários:",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-12T00:56:12.983Z"
+  },
+  {
+    "id": "builtin_text-zQ~yJD",
+    "formData": {
+      "text": "CPF\nRG - Identidade\nTitulo de Eleitor\nCertidão de Casamento\nCertidão de Nascimento\nComprovante de Vacina da Rubeola\nHistórico Escolar do Ensino Médio e Certificado",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-12T00:56:30.375Z"
+  },
+  {
+    "id": "builtin_text-Bn2yzW",
+    "formData": {
+      "text": "É protocolo de controle de entrega de documentos para bolsa do Uniedu, pelo governo do estado de SC. Entre em contato com o Centac presencialmente para mais detalhes.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-12T02:09:41.084Z"
+  },
+  {
+    "id": "builtin_text-EgPwkv",
+    "formData": {
+      "text": "O documento que atesta informações acadêmicas do estudante, tais como as disciplinas e semestre que está cursando pode ser retirado de forma online. ",
+      "variations": [],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-12T02:12:10.354Z"
+  },
+  {
+    "id": "builtin_text-qkn2_v",
+    "formData": {
+      "text": "Antes de acessar o link, certifique-se se esta logado em: <a href=\"https://minha.unesc.net/\">https://minha.unesc.net/</a>",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-12T02:14:20.990Z"
+  },
+  {
+    "id": "builtin_text-b62k5m",
+    "formData": {
+      "text": "Para acessar o atestado on-line acesse: <a href=\"https://minha.unesc.net/requirements/services/34/protocols/new\">https://minha.unesc.net/requirements/services/34/protocols/new</a>",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-12T02:15:16.243Z"
+  },
+  {
+    "id": "builtin_text-8OhWch",
+    "formData": {
+      "text": "O estudante deverá preencher as informações necessárias para contração e/ou renovação de contrato com o Pravaler referente 2020/2. Os dados serão submetidos a avaliação do Departamento de Finanças.\n",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-12T02:29:02.516Z"
+  },
+  {
+    "id": "builtin_text-EES4G4",
+    "formData": {
+      "text": "Para solicitação de renovação do contrato do Pravaler 2020/2, disponibilizamos um canal de comunicação via portal Minha Unesc, e conforme instruções em anexo, o estudante deverá preencher as informações necessárias para que possamos habilitar a sua renovação de contrato junto ao portal do Pravaler:",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-12T02:29:24.290Z"
+  },
+  {
+    "id": "builtin_text-JIKvcx",
+    "formData": {
+      "text": "Para solicitação do pravaler acesse: <a href=\"https://minha.unesc.net/requirements/services/62/protocols/new\">https://minha.unesc.net/requirements/services/62/protocols/new</a>",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-12T02:30:48.580Z"
+  },
+  {
+    "id": "builtin_text-icDoC~",
+    "formData": {
+      "text": "O trancamento de curso pode ser realizado durante o semestre, até a data limite determinada em calendário acadêmico institucional. Importante justificar o motivo do trancamento do curso, para a coordenação analisar e deferir o pedido.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-12T02:40:55.608Z"
+  },
+  {
+    "id": "builtin_text-Y84TIF",
+    "formData": {
+      "text": "Antes verifique que esteja logado em <a href=\"https://minha.unesc.net/\">https://minha.unesc.net/</a> e acesse o link: <a href=\"https://minha.unesc.net/requirements/services/30/protocols/new\"></a>",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-12T02:42:26.629Z"
+  },
+  {
+    "id": "builtin_text-8y5RNj",
+    "formData": {
+      "text": "<a href=\"https://minha.unesc.net/requirements/services/30/protocols/new\">https://minha.unesc.net/requirements/services/30/protocols/new</a>",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-12T02:44:21.556Z"
+  },
+  {
+    "id": "builtin_text-i~KanS",
+    "formData": {
+      "text": "Meu nome é Jubileu ",
+      "variations": [
+        "Me chamo Jubileu",
+        "Sou o seu mais novo amigo, Jubileu"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-12T02:50:45.416Z"
+  },
+  {
+    "id": "builtin_text-FrJbCc",
+    "formData": {
+      "text": "Desculpa, não consegui entender.",
+      "variations": [
+        "Desculpa, não entendi o que você disse.",
+        "Ops, não foi possível entender o que foi disse."
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-12T18:06:50.151Z"
+  }
+]

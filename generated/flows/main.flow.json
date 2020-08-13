@@ -1,0 +1,201 @@
+{
+  "version": "0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.nlu.intent.is('name')",
+        "node": "name"
+      },
+      {
+        "condition": "event.nlu.intent.is('forget')",
+        "node": "forget-my-name"
+      },
+      {
+        "condition": "event.nlu.intent.is('registration')",
+        "node": "registration"
+      },
+      {
+        "condition": "event.nlu.intent.is('attestation')",
+        "node": "attestation"
+      },
+      {
+        "condition": "event.nlu.intent.is('pravaler')",
+        "node": "pravaler"
+      },
+      {
+        "condition": "event.nlu.intent.is('courselocking')",
+        "node": "courselocking"
+      },
+      {
+        "condition": "event.nlu.intent.is('none')",
+        "node": "none"
+      },
+      {
+        "condition": "event.nlu.intent.is('uniedu')",
+        "node": "uniedu"
+      }
+    ]
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "bda0320009",
+      "name": "welcome",
+      "onEnter": [
+        "say #!builtin_text-pSsHWg",
+        "getTotalNumberOfConversations {}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "state.$r === 0",
+          "node": "first-time"
+        },
+        {
+          "condition": "state.$r > 0",
+          "node": "many-times"
+        }
+      ]
+    },
+    {
+      "id": "7099199f90",
+      "name": "first-time",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-AY5SSW",
+        "say #!builtin_text-nQv5nS"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "c69ee2d71f",
+      "name": "many-times",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-bFsOmf",
+        "say #!builtin_text-nQv5nS"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "4f50a2e9fd",
+      "name": "forget-my-name",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-TtzrCV",
+        "resetUserVariable {\"name\":\"nickname\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "a54a82eb7c",
+      "name": "entry",
+      "onEnter": [
+        "getUserVariable {\"name\":\"nickname\",\"output\":\"$r\"}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "state.$r !== null",
+          "node": "welcome"
+        },
+        {
+          "condition": "true",
+          "node": "ask-name"
+        }
+      ]
+    },
+    {
+      "id": "d29fc6b771",
+      "name": "ask-name",
+      "next": [
+        {
+          "condition": "true",
+          "node": "welcome"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-z0J9qh"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"nickname\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"nickname\",\"output\":\"$r\"}"
+      ]
+    },
+    {
+      "id": "185b3fede8",
+      "name": "registration",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-5k2YT1",
+        "say #!builtin_text-uojjyW",
+        "say #!builtin_text-nmjsWW",
+        "say #!builtin_text-PDwYeO",
+        "say #!builtin_text-zQ~yJD"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "79274329f1",
+      "name": "uniedu",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-Bn2yzW"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "072f2a281c",
+      "name": "attestation",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-EgPwkv",
+        "say #!builtin_text-qkn2_v",
+        "say #!builtin_text-b62k5m"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "82a812b870",
+      "name": "pravaler",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-8OhWch",
+        "say #!builtin_text-EES4G4",
+        "say #!builtin_text-qkn2_v",
+        "say #!builtin_text-JIKvcx"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "e5ff3d089e",
+      "name": "courselocking",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-icDoC~",
+        "say #!builtin_text-Y84TIF",
+        "say #!builtin_text-8y5RNj"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "03123aca36",
+      "name": "name",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-i~KanS"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "05621c256e",
+      "name": "none",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-FrJbCc"
+      ],
+      "onReceive": null
+    }
+  ]
+}
