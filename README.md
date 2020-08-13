@@ -1,13 +1,12 @@
-## Run bot
+## Requisitos para utilizar o Chatbot da Botpress
 
-Run `npm start` to start your bot.
+* Instale o NodeJs disponível em https://nodejs.org/en/
+* Instale o botpress `npm install -g botpress`
+* Após baixar o chatbot, na pasta que foi baixada rode o comando `npm install`. 
 
-By default bot runs locally with web interface available at http://localhost:3000
 
-## Deploy
+## Iniciar aplicação
 
-Check [Heroku](https://botpress.io/docs/deploy/heroku/) and [AWS](https://botpress.io/docs/deploy/aws/) deploy tutorials to get started
+Para iniciar a aplicação rode `npm start` (aplicação disponivel em localhost:4000).
 
-## Development
 
-To learn more on how to work with [Botpress](https://botpress.io/) you can read [here](https://botpress.io/docs/getting_started/).
